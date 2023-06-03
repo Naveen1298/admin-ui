@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    margin: auto
+}
+
+.table{
+    width: 100%;
+}
+
+.table td, .table th{
+    text-align: start;
+    height: 3rem;
+    padding: 7px;
+}
+
+.table tr{
+    height: 3rem;
+    padding: 1rem;   
+}
+
+.table-head{
+    background-color: #67a3d9;
+     /* 8ecae6 */
+}
+
+.selected{
+    background-color: 	#c0c0c0;
+}
+
+.not-selected{
+    background-color: none;
+}
+
+.input-class{
+    border: none;
+    background-color: none;
+}
+
+.donot-save{
+    cursor: not-allowed;
+}
+
+
+@media only screen and (max-width: 900px) {
+
+    .table th, .table td{
+        padding: 0rem;
+    }
+}
+
+@media only screen and (max-width: 768px){
+   
+    .table{
+        padding: 0rem;
+    }
+
+    .table th, .table td{
+        padding: 1rem 0rem;
+    }
+
+    .table tr{
+        padding: 0rem;
+    }
+
+    .table td input{
+        display: flex;
+        width: 100%;
+        text-align: start;
+    }
+
+    #name-th{
+        width: 9rem;
+    }
+    #role-th{
+        width: 5rem;
+    }
+}
+
+@media only screen and (max-width: 576px){
+
+    .table{
+        width: 98%;
+        margin: auto;
+    }
+
+    .table th, .table td{
+        height: 2rem;
+        padding-right: 0.25rem;
+    }
+
+    #name-th{
+        width: 7rem;
+    }
+
+    #role-th{
+        width: 4.5rem;
+    }
+
+    #email-th{
+        width: 11rem;
+    }
+
+    #action-th{
+        width: 3rem;
+    }
+    
+    #check-th{
+        width: 2rem;
+        padding-left: 0.5rem;
+    }
+}
+
+@media only screen and  (min-width: 360px) and (max-width: 455px){
+    .table{
+        margin: auto;
+    }
+    .table th, .table td{
+        font-size: 13.5px;
+        padding-right: 0rem;
+    }
+    .table td input{
+       font-size: 10px;;
+    }
+
+    #name-th{
+        width: 7rem;
+    }
+
+    #role-th{
+        width: 4.5rem;
+    }
+
+    #email-th{
+        width: 11rem;
+    }
+
+    #action-th{
+        width: 3rem;
+    }
+    
+    #check-th{
+        width: 2rem;
+        padding-left: 0.5rem;
+    }
+    #action-td{
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,20 @@
+.main-search{
+  height: 100%;
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .main-search{
+    width: 95%;
+    margin: 9px 9px 0px 14px;
+  }
+
+}
+
+@media only screen and (max-width: 576px) {
+  .main-search{
+    width: 95%;
+    margin: 9px 9px 0px 11px;
+  }
+
+}

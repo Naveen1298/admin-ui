@@ -1,0 +1,98 @@
+.page-btn{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 1vw;
+    /* margin-left: 2vw; */
+    justify-items: center;
+    align-items: center;
+    background-color: #318CE7;
+    border: none;
+    color: wheat;
+    cursor: pointer;
+}
+
+.container-btn{
+    padding: 0.5% 0%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.delete-btn{
+    margin: 0% 17% 0% 2% ;
+    border-radius: 10px;
+    border: none;
+    background-color: #d64161;
+    color: white;
+    width: 15vw;
+    height: 1.7rem;
+    cursor: pointer;
+}
+
+.delete-btn-link{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.one, .last{
+    background-color: grey;
+    cursor: not-allowed;
+}
+
+.btn-click{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .delete-btn{
+        margin: 0% 7% 0% 2% ;
+        width: 20vw;
+  }
+
+}
+  
+  @media only screen and (max-width: 576px) {
+    .delete-btn{
+        margin: 0% 3% 2% 0%;
+        width: 100%;
+        padding-right: 1rem;
+  }
+    .page-btn{
+        margin: 0vw 0vw 2vw 2vw;
+    }
+    .container-btn{
+        padding: 0.5% 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .container-delete{
+        width: 100%;
+        padding: 1rem;
+    }
+  }
+
+  @media only screen and  (min-width: 360px) and (max-width: 455px){
+    .delete-btn{
+        width: 100%;
+        font-size: 12px;
+  }
+  .container-delete{
+    width: 100%;
+    }
+  }
+
+  @media only screen and  (min-width: 320px) and (max-width: 359px){
+    .delete-btn{
+        width: 100%;
+        font-size: 11px;
+    }
+    .container-delete{
+        width: 100%;
+        }
+  }
